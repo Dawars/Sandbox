@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Sandbox</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_wear_communication">WearCommunicationActivity</string>
+    <string name="title_activity_sphero_wear_tile">SpheroWearTileActivity</string>
+</resources>

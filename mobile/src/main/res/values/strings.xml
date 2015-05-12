@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Sandbox</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="open">Open</string>
+    <string name="closed">Closed</string>
+    <string name="title_activity_finger_curve">FingerCurveActivity</string>
+    <string name="title_activity_bezier_spline">BezierSplineActivity</string>
+    <string name="title_activity_main_activity2">MainActivity2Activity</string>
+    <string name="action_clear">Clear</string>
+    <string name="title_activity_bezier_curve">Bezier Curve</string>
+    <string name="title_activity_sphero_wear_control">SpheroWearControlActivity</string>
+    <string name="title_activity_wear_communication">WearCommunicationActivity</string>
+    <string name="title_activity_sphero_tilt">SpheroTiltActivity</string>
+    <string name="title_activity_sphero_wear_tilt">SpheroWearTiltActivity</string>
+</resources>

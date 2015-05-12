@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="me.dawars.sandbox">
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FingerCurveActivity"
+            android:label="@string/title_activity_finger_curve"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="me.dawars.sandbox.MainActivity" />
+        </activity>
+        <activity
+            android:name=".BezierSplineActivity"
+            android:label="@string/title_activity_bezier_spline"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="me.dawars.sandbox.MainActivity" />
+        </activity>
+        <activity
+            android:name=".BezierCurveActivity"
+            android:label="@string/title_activity_bezier_curve"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="me.dawars.sandbox.MainActivity" />
+        </activity>
+        <activity
+            android:name=".WearCommActivity"
+            android:label="@string/title_activity_wear_communication"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="me.dawars.sandbox.MainActivity" />
+        </activity>
+        <activity
+            android:name=".WearCommBackActivity"
+            android:label="@string/title_activity_wear_communication"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="me.dawars.sandbox.MainActivity" />
+        </activity>
+        <activity
+            android:name=".SpheroTiltActivity"
+            android:label="@string/title_activity_sphero_tilt"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="me.dawars.sandbox.MainActivity" />
+        </activity>
+        <activity
+            android:name=".SpheroWearTiltActivity"
+            android:label="@string/title_activity_sphero_wear_tilt"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="me.dawars.sandbox.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>
